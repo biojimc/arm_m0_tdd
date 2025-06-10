@@ -1,0 +1,10 @@
+{
+  "name": "Ceedling Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/gcc:1": {},
+    "ghcr.io/devcontainers/features/ruby:1": {}
+  },
+  "postCreateCommand": "gem install ceedling && ceedling new . --no-docs"
+}
+
