@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "gem install ceedling && ceedling new . --no-docs",
+  "postCreateCommand": "gem install ceedling",
   "customizations": {
     "vscode": {
       "extensions": ["ms-vscode.cpptools"]
