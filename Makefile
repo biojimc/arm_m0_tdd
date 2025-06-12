@@ -1,9 +1,9 @@
-# Makefile for compiling hello.c with arm-linux-gnueabi-gcc
+# Makefile for compiling with arm-linux-gnueabi-gcc
 
 CC = arm-linux-gnueabi-gcc
-CFLAGS = -Wall -O2 -static
-TARGET = hello
-SRC = hello.c
+CFLAGS = -Isrc -Wall -O2 -static
+TARGET = test_adder
+SRC = src/adder.c src/unity.c test/test_adder.c 
 
 all: $(TARGET)
 
