@@ -1,0 +1,3 @@
+arm-none-eabi-as -mcpu=cortex-m4 startup.s -o startup.o
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.o
+arm-none-eabi-ld -T linker.ld startup.o main.o -o main.elf

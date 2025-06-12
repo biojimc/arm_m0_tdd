@@ -1,0 +1,4 @@
+c is used to compile code
+r is used to run qemu simulation
+
+press ctrl+a then x to quit qemu
